@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G  ",
+    "GG ",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreblocks:schneeziegel",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:schneeziegeltreppe",
+    "count": 4
+  }
+}

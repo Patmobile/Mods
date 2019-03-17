@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QBG",
+    "TFT",
+    "NBW"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "B":
+      {
+        "item": "minecraft:blaze_rod"
+      },
+	  
+    "N":
+      {
+        "item": "minecraft:nether_brick"
+      },
+	  
+    "T":
+      {
+        "item": "minecraft:ghast_tear"
+      },
+	  
+    "F":
+      {
+        "item": "minecraft:flint_and_steel"
+      },
+	  
+    "W":
+      {
+        "item": "minecraft:nether_wart"
+      },
+	  
+	"G":
+      {
+        "item": "minecraft:glowstone_dust"
+      }
+      
+      },
+      
+  "result": {
+    "item": "paralleldimension:hoellenfeuerzeug",
+    "count": 1
+  }
+}

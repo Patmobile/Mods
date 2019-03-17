@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:stone",
+	  "data": 0
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:steinarmor_helmet",
+    "count": 1
+  }
+}

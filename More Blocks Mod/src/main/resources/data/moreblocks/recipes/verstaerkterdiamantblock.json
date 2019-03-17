@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreitems:verstaerkterdiamant",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:verstaerkterdiamantblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    " S",
+    " S"
+  ],
+  "key": {
+    "E": {
+      "item": "moreitems:verstaerkterdiamant"
+    },
+    "S":
+      {
+        "item": "minecraft:blaze_rod"
+      }
+      
+      },
+      
+  "result": {
+    "item": "moreitems:verstaerktesdiamanttool_hoe",
+    "count": 1
+  }
+}

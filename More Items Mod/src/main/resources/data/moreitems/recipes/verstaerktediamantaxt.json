@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE",
+    "SE",
+    "S "
+  ],
+  "key": {
+    "E": {
+      "item": "moreitems:verstaerkterdiamant"
+    },
+    "S":
+      {
+        "item": "minecraft:blaze_rod"
+      }
+      
+      },
+      
+  "result": {
+    "item": "moreitems:verstaerktesdiamanttool_axe",
+    "count": 1
+  }
+}

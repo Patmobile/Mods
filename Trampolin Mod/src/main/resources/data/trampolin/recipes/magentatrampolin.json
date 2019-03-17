@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WEW",
+    "ETE",
+    "WEW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:magenta_wool",
+	  "data": 0
+    },
+    "T":
+      {
+        "item": "moreitems:trampolingitter"
+      },
+	    "E":
+      {
+        "item": "moreitems:eisenfeder"
+      }
+      
+      },
+      
+      
+  "result": {
+    "item": "trampolin:magentatrampolin",
+    "count": 1
+  }
+}

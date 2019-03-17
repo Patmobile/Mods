@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "back=false,forward=true,left=false,right=true": {"model": "trampolin:block/schwarzestrampolinecke", "y": 270},
+        "back=false,forward=true,left=true,right=false": {"model": "trampolin:block/schwarzestrampolinecke", "y": 180},
+        "back=true,forward=false,left=false,right=true": {"model": "trampolin:block/schwarzestrampolinecke"},
+        "back=true,forward=false,left=true,right=false": {"model": "trampolin:block/schwarzestrampolinecke", "y": 90},
+        "back=false,forward=true,left=false,right=false": {"model": "trampolin:block/schwarzestrampolindreiwolle", "y": 180},
+        "back=false,forward=false,left=false,right=true": {"model": "trampolin:block/schwarzestrampolindreiwolle", "y": 270},
+        "back=false,forward=false,left=true,right=false": {"model": "trampolin:block/schwarzestrampolindreiwolle", "y": 90},
+        "back=true,forward=false,left=false,right=false": {"model": "trampolin:block/schwarzestrampolindreiwolle"},
+        "back=false,forward=false,left=false,right=false": {"model": "trampolin:block/schwarzestrampolin"},
+        "back=true,forward=true,left=false,right=false": {"model": "trampolin:block/schwarzestrampolinzweiwolle"},
+        "back=true,forward=true,left=true,right=false": {"model": "trampolin:block/schwarzestrampolineinewolle", "y": 180},
+        "back=true,forward=true,left=false,right=true": {"model": "trampolin:block/schwarzestrampolineinewolle"},
+        "back=false,forward=false,left=true,right=true": {"model": "trampolin:block/schwarzestrampolinzweiwolle", "y": 270},
+        "back=false,forward=true,left=true,right=true": {"model": "trampolin:block/schwarzestrampolineinewolle", "y": 270},
+        "back=true,forward=false,left=true,right=true": {"model": "trampolin:block/schwarzestrampolineinewolle", "y": 90},
+        "back=true,forward=true,left=true,right=true": {"model": "trampolin:block/schwarzestrampolinkeinewolle"}
+    }
+}

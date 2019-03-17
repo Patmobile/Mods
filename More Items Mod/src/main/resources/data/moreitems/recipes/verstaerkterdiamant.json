@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DOD",
+    "OLO",
+    "DOD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "O":
+      {
+        "item": "minecraft:obsidian"
+      },
+    "L":
+    {
+      "item": "minecraft:blaze_rod"
+    }
+
+  },
+  "result": {
+    "item": "moreitems:verstaerkterdiamant",
+    "count": 2
+  }
+}

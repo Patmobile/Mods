@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "back=false,forward=true,left=false,right=true": {"model": "trampolin:block/violettestrampolinecke", "y": 270},
+        "back=false,forward=true,left=true,right=false": {"model": "trampolin:block/violettestrampolinecke", "y": 180},
+        "back=true,forward=false,left=false,right=true": {"model": "trampolin:block/violettestrampolinecke"},
+        "back=true,forward=false,left=true,right=false": {"model": "trampolin:block/violettestrampolinecke", "y": 90},
+        "back=false,forward=true,left=false,right=false": {"model": "trampolin:block/violettestrampolindreiwolle", "y": 180},
+        "back=false,forward=false,left=false,right=true": {"model": "trampolin:block/violettestrampolindreiwolle", "y": 270},
+        "back=false,forward=false,left=true,right=false": {"model": "trampolin:block/violettestrampolindreiwolle", "y": 90},
+        "back=true,forward=false,left=false,right=false": {"model": "trampolin:block/violettestrampolindreiwolle"},
+        "back=false,forward=false,left=false,right=false": {"model": "trampolin:block/violettestrampolin"},
+        "back=true,forward=true,left=false,right=false": {"model": "trampolin:block/violettestrampolinzweiwolle"},
+        "back=true,forward=true,left=true,right=false": {"model": "trampolin:block/violettestrampolineinewolle", "y": 180},
+        "back=true,forward=true,left=false,right=true": {"model": "trampolin:block/violettestrampolineinewolle"},
+        "back=false,forward=false,left=true,right=true": {"model": "trampolin:block/violettestrampolinzweiwolle", "y": 270},
+        "back=false,forward=true,left=true,right=true": {"model": "trampolin:block/violettestrampolineinewolle", "y": 270},
+        "back=true,forward=false,left=true,right=true": {"model": "trampolin:block/violettestrampolineinewolle", "y": 90},
+        "back=true,forward=true,left=true,right=true": {"model": "trampolin:block/violettestrampolinkeinewolle"}
+    }
+}

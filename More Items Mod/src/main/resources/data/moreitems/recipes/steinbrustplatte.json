@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:stone",
+	  "data": 0
+    }      
+      },
+      
+  "result": {
+    "item": "moreitems:steinarmor_chestplate",
+    "count": 1
+  }
+}

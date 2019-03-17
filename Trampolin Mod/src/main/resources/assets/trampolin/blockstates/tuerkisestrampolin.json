@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "back=false,forward=true,left=false,right=true": {"model": "trampolin:block/tuerkisestrampolinecke", "y": 270},
+        "back=false,forward=true,left=true,right=false": {"model": "trampolin:block/tuerkisestrampolinecke", "y": 180},
+        "back=true,forward=false,left=false,right=true": {"model": "trampolin:block/tuerkisestrampolinecke"},
+        "back=true,forward=false,left=true,right=false": {"model": "trampolin:block/tuerkisestrampolinecke", "y": 90},
+        "back=false,forward=true,left=false,right=false": {"model": "trampolin:block/tuerkisestrampolindreiwolle", "y": 180},
+        "back=false,forward=false,left=false,right=true": {"model": "trampolin:block/tuerkisestrampolindreiwolle", "y": 270},
+        "back=false,forward=false,left=true,right=false": {"model": "trampolin:block/tuerkisestrampolindreiwolle", "y": 90},
+        "back=true,forward=false,left=false,right=false": {"model": "trampolin:block/tuerkisestrampolindreiwolle"},
+        "back=false,forward=false,left=false,right=false": {"model": "trampolin:block/tuerkisestrampolin"},
+        "back=true,forward=true,left=false,right=false": {"model": "trampolin:block/tuerkisestrampolinzweiwolle"},
+        "back=true,forward=true,left=true,right=false": {"model": "trampolin:block/tuerkisestrampolineinewolle", "y": 180},
+        "back=true,forward=true,left=false,right=true": {"model": "trampolin:block/tuerkisestrampolineinewolle"},
+        "back=false,forward=false,left=true,right=true": {"model": "trampolin:block/tuerkisestrampolinzweiwolle", "y": 270},
+        "back=false,forward=true,left=true,right=true": {"model": "trampolin:block/tuerkisestrampolineinewolle", "y": 270},
+        "back=true,forward=false,left=true,right=true": {"model": "trampolin:block/tuerkisestrampolineinewolle", "y": 90},
+        "back=true,forward=true,left=true,right=true": {"model": "trampolin:block/tuerkisestrampolinkeinewolle"}
+    }
+}

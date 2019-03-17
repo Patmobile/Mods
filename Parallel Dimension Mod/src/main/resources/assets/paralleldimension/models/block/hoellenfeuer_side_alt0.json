@@ -1,0 +1,7 @@
+{
+    "parent": "paralleldimension:block/hoellenfeuer_side_alt",
+    "textures": {
+        "particle": "paralleldimension:blocks/hoellenfeuer_0",
+        "fire": "paralleldimension:blocks/hoellenfeuer_0"
+    }
+}

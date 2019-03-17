@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:stone",
+	  "data": 0
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:steinarmor_leggings",
+    "count": 1
+  }
+}

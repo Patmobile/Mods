@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "axis=z": { "model": "paralleldimension:block/paralleldimensionportal_ew" },
+        "axis=x": { "model": "paralleldimension:block/paralleldimensionportal_ns" }
+    }
+}

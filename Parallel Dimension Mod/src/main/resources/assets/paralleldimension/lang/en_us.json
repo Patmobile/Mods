@@ -1,0 +1,12 @@
+{
+    "itemGroup.paralleldimensiontab": "Prallel Dimension Mod",
+
+    "item.paralleldimension.saphir": "Sapphire",
+    "item.paralleldimension.rubin": "Ruby",
+    "item.paralleldimension.hoellenfeuerzeug": "Hell Lighter",
+		
+	"block.paralleldimension.saphirerz": "Sapphire Ore",
+	"block.paralleldimension.rubinerz": "Ruby Ore",
+	"block.paralleldimension.hoellenfeuer": "Hell Fire"
+
+}

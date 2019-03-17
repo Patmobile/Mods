@@ -1,0 +1,12 @@
+{
+    "itemGroup.paralleldimensiontab": "Prallel Dimension Mod",
+
+    "item.paralleldimension.saphir": "Saphir",
+    "item.paralleldimension.rubin": "Rubin",
+    "item.paralleldimension.hoellenfeuerzeug": "Höllenfeuerzeug",
+		
+	"block.paralleldimension.saphirerz": "Saphirerz",
+	"block.paralleldimension.rubinerz": "Rubinerz",
+	"block.paralleldimension.hoellenfeuer": "Höllenfeuer"
+
+}

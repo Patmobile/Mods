@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:obsidian"
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:obsidianarmor_helmet",
+    "count": 1
+  }
+}

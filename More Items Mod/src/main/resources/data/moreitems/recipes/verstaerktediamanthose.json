@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "moreitems:verstaerkterdiamant"
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:verstaerktediamantarmor_leggings",
+    "count": 1
+  }
+}

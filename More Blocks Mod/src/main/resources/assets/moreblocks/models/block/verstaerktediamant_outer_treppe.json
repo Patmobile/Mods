@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "moreblocks:blocks/verstaerkterdiamantblock",
+        "top": "moreblocks:blocks/verstaerkterdiamantblock",
+        "side": "moreblocks:blocks/verstaerkterdiamantblock"
+    }
+}

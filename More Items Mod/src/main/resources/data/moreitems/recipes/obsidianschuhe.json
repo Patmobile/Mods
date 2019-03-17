@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:obsidian"
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:obsidianarmor_boots",
+    "count": 1
+  }
+}

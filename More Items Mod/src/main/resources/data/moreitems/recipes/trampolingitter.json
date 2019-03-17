@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:string"
+    }
+    
+    },
+      
+  "result": {
+    "item": "moreitems:trampolingitter",
+    "count": 1
+  }
+}
