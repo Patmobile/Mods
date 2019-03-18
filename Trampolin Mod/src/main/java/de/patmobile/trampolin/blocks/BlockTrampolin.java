@@ -2,13 +2,11 @@ package de.patmobile.trampolin.blocks;
 
 import de.patmobile.trampolin.TrampolinMod;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockPortal;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.*;
 import net.minecraft.state.BooleanProperty;
@@ -23,11 +21,10 @@ import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.World;
-import net.minecraft.world.dimension.DimensionType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class BlockTrampolin extends UBlock {
+public class BlockTrampolin extends Block {
 	
 	public static final BooleanProperty BACK = BooleanProperty.create("back");
 	public static final BooleanProperty FORWARD = BooleanProperty.create("forward");
@@ -39,13 +36,15 @@ public class BlockTrampolin extends UBlock {
 	   protected static final VoxelShape SHAPE = Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 9.0D, 16.0D);
 	
 	
-	public BlockTrampolin(String name) {
-		super(name, TrampolinMod.TrampolinTab, Properties.create(Material.ROCK).hardnessAndResistance(2F).sound(SoundType.METAL));
+	public BlockTrampolin(Properties properties) {
+		super(properties);
 		this.setDefaultState(this.stateContainer.getBaseState().with(BACK, false).with(FORWARD, false).with(LEFT, false).with(RIGHT, false));
 	}
 	
-	
-	 public boolean isBlockNormalCube(IBlockState state) {
+
+
+
+	public boolean isBlockNormalCube(IBlockState state) {
 	        return false;
 	}
 	 
