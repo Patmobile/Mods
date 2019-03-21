@@ -60,21 +60,21 @@ public class ItemInit
     
 	//Armor
 	SteinHelm = new ArmorSet("steinarmor_helmet", InitArmorSets.STEINARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SteinBrustplatte = new ArmorSet("steinarmor_chestplate", InitArmorSets.STEINARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SteinHose = new ArmorSet("steinarmor_leggings", InitArmorSets.STEINARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SteinSchuhe = new ArmorSet("steinarmor_boots", InitArmorSets.STEINARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SmaragdHelm = new ArmorSet("smaragdarmor_helmet", InitArmorSets.SMNARAGDARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SmaragdBrustplatte = new ArmorSet("smaragdarmor_chestplate", InitArmorSets.SMNARAGDARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SmaragdHose = new ArmorSet("smaragdarmor_leggings", InitArmorSets.SMNARAGDARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    SmaragdSchuhe = new ArmorSet("smaragdarmor_boots", InitArmorSets.SMNARAGDARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SteinBrustplatte = new ArmorSet("steinarmor_chestplate", InitArmorSets.STEINARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SteinHose = new ArmorSet("steinarmor_leggings", InitArmorSets.STEINARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SteinSchuhe = new ArmorSet("steinarmor_boots", InitArmorSets.STEINARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SmaragdHelm = new ArmorSet("smaragdarmor_helmet", InitArmorSets.SMARAGDARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SmaragdBrustplatte = new ArmorSet("smaragdarmor_chestplate", InitArmorSets.SMARAGDARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SmaragdHose = new ArmorSet("smaragdarmor_leggings", InitArmorSets.SMARAGDARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
+    SmaragdSchuhe = new ArmorSet("smaragdarmor_boots", InitArmorSets.SMARAGDARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	ObsidianHelm = new ArmorSet("obsidianarmor_helmet", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-	ObsidianBrustplatte = new ArmorSet("obsidianarmor_chestplate", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-	ObsidianHose = new ArmorSet("obsidianarmor_leggings", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-	ObsidianSchuhe = new ArmorSet("obsidianarmor_boots", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	ObsidianBrustplatte = new ArmorSet("obsidianarmor_chestplate", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	ObsidianHose = new ArmorSet("obsidianarmor_leggings", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	ObsidianSchuhe = new ArmorSet("obsidianarmor_boots", InitArmorSets.OBSIDIANARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	VerstaerkterDiamantHelm = new ArmorSet("verstaerktediamantarmor_helmet", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-	VerstaerkteDiamantBrustplatte = new ArmorSet("verstaerktediamantarmor_chestplate", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-	VerstaerkteDiamantHose = new ArmorSet("verstaerktediamantarmor_leggings", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
-	VerstaerkteDiamantSchuhe = new ArmorSet("verstaerktediamantarmor_boots", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	VerstaerkteDiamantBrustplatte = new ArmorSet("verstaerktediamantarmor_chestplate", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	VerstaerkteDiamantHose = new ArmorSet("verstaerktediamantarmor_leggings", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	VerstaerkteDiamantSchuhe = new ArmorSet("verstaerktediamantarmor_boots", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
 
 	}
 

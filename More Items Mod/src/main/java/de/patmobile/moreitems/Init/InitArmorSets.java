@@ -21,7 +21,7 @@ public enum InitArmorSets implements IArmorMaterial {
     STEINARMOR(ModConfig.MODID +":"+"stein", 7, new int[]{1, 2, 2, 1}, 5, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(new IItemProvider[]{Blocks.STONE});
     }),
-    SMNARAGDARMOR(ModConfig.MODID+":"+"smaragd", 24, new int[]{3, 6, 7, 2}, 17, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    SMARAGDARMOR(ModConfig.MODID+":"+"smaragd", 24, new int[]{3, 6, 7, 2}, 17, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(new IItemProvider[]{Items.EMERALD});
     }),
     OBSIDIANARMOR(ModConfig.MODID+":"+"obsidian", 30, new int[]{3, 6, 8, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {

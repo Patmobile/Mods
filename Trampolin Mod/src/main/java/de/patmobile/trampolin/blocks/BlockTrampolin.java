@@ -2,8 +2,6 @@ package de.patmobile.trampolin.blocks;
 
 import de.patmobile.trampolin.TrampolinMod;
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -24,7 +22,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class BlockTrampolin extends Block {
+public class BlockTrampolin extends BaseBlock {
 	
 	public static final BooleanProperty BACK = BooleanProperty.create("back");
 	public static final BooleanProperty FORWARD = BooleanProperty.create("forward");
@@ -36,8 +34,8 @@ public class BlockTrampolin extends Block {
 	   protected static final VoxelShape SHAPE = Block.makeCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 9.0D, 16.0D);
 	
 	
-	public BlockTrampolin(Properties properties) {
-		super(properties);
+	public BlockTrampolin(String Name, Block.Properties builder) {
+		super(Name, builder, TrampolinMod.TrampolinTab);
 		this.setDefaultState(this.stateContainer.getBaseState().with(BACK, false).with(FORWARD, false).with(LEFT, false).with(RIGHT, false));
 	}
 	

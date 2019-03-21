@@ -3,9 +3,9 @@ package de.patmobile.moreblocks.blocks;
 import java.util.Random;
 import java.util.stream.IntStream;
 
+import de.patmobile.moreblocks.MoreBlocksMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockHorizontal;
-import net.minecraft.block.BlockStairs;
 import net.minecraft.block.IBucketPickupHandler;
 import net.minecraft.block.ILiquidContainer;
 import net.minecraft.block.state.BlockFaceShape;
@@ -43,7 +43,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 
-public class BlockTreppe extends BlockStairs implements IBucketPickupHandler, ILiquidContainer {
+public class BlockTreppe extends BaseBlock implements IBucketPickupHandler, ILiquidContainer {
 	
     public static final DirectionProperty FACING = BlockHorizontal.HORIZONTAL_FACING;
     public static final EnumProperty<Half> HALF = BlockStateProperties.HALF;
@@ -94,8 +94,8 @@ public class BlockTreppe extends BlockStairs implements IBucketPickupHandler, IL
         return voxelshape;
     }
 
-    public BlockTreppe(IBlockState p_i48321_1_, Properties properties) {
-        super(p_i48321_1_, properties);
+    public BlockTreppe(IBlockState p_i48321_1_, String Name, Block.Properties builder) {
+        super(Name, builder, MoreBlocksMod.MoreBlocksTab);
         this.setDefaultState(this.stateContainer.getBaseState().with(FACING, EnumFacing.NORTH).with(HALF, Half.BOTTOM).with(SHAPE, StairsShape.STRAIGHT).with(WATERLOGGED, Boolean.valueOf(false)));
         this.modelBlock = p_i48321_1_.getBlock();
         this.modelState = p_i48321_1_;
