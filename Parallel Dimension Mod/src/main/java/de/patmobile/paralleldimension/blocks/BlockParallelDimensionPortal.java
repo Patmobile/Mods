@@ -9,7 +9,6 @@ import javax.annotation.Nullable;
 
 import com.google.common.cache.LoadingCache;
 
-import de.patmobile.paralleldimension.ParallelDimensionMod;
 import de.patmobile.paralleldimension.dimension.ParallelDimensionTeleportManager;
 import de.patmobile.paralleldimension.init.BlockInit;
 import net.minecraft.block.Block;
@@ -23,7 +22,9 @@ import net.minecraft.block.state.pattern.BlockPattern;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.*;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.state.EnumProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -39,21 +40,34 @@ import net.minecraft.world.World;
 
 
 
-public class BlockParallelDimensionPortal extends UBlockParallelDimensionPortal {
+public class BlockParallelDimensionPortal extends BlockPortal {
 	
 	public static final EnumProperty<EnumFacing.Axis> AXIS = BlockStateProperties.HORIZONTAL_AXIS;
     protected static final VoxelShape X_AABB = Block.makeCuboidShape(0.0D, 0.0D, 6.0D, 16.0D, 16.0D, 10.0D);
     protected static final VoxelShape Z_AABB = Block.makeCuboidShape(6.0D, 0.0D, 0.0D, 10.0D, 16.0D, 16.0D);
 	 
-	public BlockParallelDimensionPortal(String name) {
-		super(name, ParallelDimensionMod.ParallelDimensionTab, Properties.create(Material.PORTAL).doesNotBlockMovement().needsRandomTick().hardnessAndResistance(-1.0F).sound(SoundType.GLASS).lightValue(11), new Item.Properties().rarity(EnumRarity.COMMON));
+
+    private ItemGroup itemGroup;
+
+	public BlockParallelDimensionPortal(String Name, ItemGroup group) {
 		
-		
-		this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, EnumFacing.Axis.X));
-   
+		super(Block.Properties.create(Material.PORTAL).doesNotBlockMovement().needsRandomTick().hardnessAndResistance(-1.0F).sound(SoundType.GLASS).lightValue(11));
+        this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, EnumFacing.Axis.X));
+        this.setRegistryName(Name);
+        itemGroup=group;
 		
 		
 	}
+	
+	public BlockParallelDimensionPortal addToBlockAndItemBlockRegistryList(){
+    	BlockInit.blockRegistryList.add(this);
+    	BlockInit.itemBlocksRegistryList.add(new ItemBlock(this,new Item.Properties().group(getItemGroup())));
+        return this;
+    }
+
+    public ItemGroup getItemGroup(){
+        return itemGroup;
+   }
 	
 	
     @Override

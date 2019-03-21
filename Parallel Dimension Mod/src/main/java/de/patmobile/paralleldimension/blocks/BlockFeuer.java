@@ -11,9 +11,7 @@ import de.patmobile.paralleldimension.init.BlockInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSixWay;
 import net.minecraft.block.BlockTNT;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
+
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.BlockPortal;
 import net.minecraft.block.state.IBlockState;
@@ -21,8 +19,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Particles;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.BlockItemUseContext;
-import net.minecraft.item.EnumRarity;
-import net.minecraft.item.Item;
+
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
@@ -39,13 +36,12 @@ import net.minecraft.world.IWorld;
 import net.minecraft.world.IWorldReaderBase;
 import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.dimension.EndDimension;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 	
 	
 	
-public class BlockFeuer extends UBlockFeuer {
+public class BlockFeuer extends BaseBlock {
 	
 		 public static final BooleanProperty NORTH = BlockSixWay.NORTH;
 		   public static final BooleanProperty EAST = BlockSixWay.EAST;
@@ -59,8 +55,8 @@ public class BlockFeuer extends UBlockFeuer {
 		   private final Object2IntMap<Block> flammabilities = new Object2IntOpenHashMap<>();
 		   
 		
-		public BlockFeuer(String name) {
-			super(name, Properties.create(Material.FIRE, MaterialColor.TNT).doesNotBlockMovement().needsRandomTick().lightValue(15).sound(SoundType.CLOTH));
+		public BlockFeuer(String name, Properties builder) {
+			super(name, builder, ParallelDimensionMod.ParallelDimensionTab);
 		      this.setDefaultState(this.stateContainer.getBaseState().with(AGE, Integer.valueOf(0)).with(NORTH, Boolean.valueOf(false)).with(EAST, Boolean.valueOf(false)).with(SOUTH, Boolean.valueOf(false)).with(WEST, Boolean.valueOf(false)).with(UP, Boolean.valueOf(false)));
 
 		}

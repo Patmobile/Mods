@@ -1,23 +1,30 @@
 package de.patmobile.paralleldimension.init;
 
+import java.util.ArrayList;
 
-import de.patmobile.paralleldimension.ModConfig;
+import de.patmobile.paralleldimension.ParallelDimensionMod;
 import de.patmobile.paralleldimension.items.ItemFeuerzeug;
 import de.patmobile.paralleldimension.items.ItemStandard;
-import de.patmobile.paralleldimension.registry.ItemRegistry;
 import net.minecraft.item.Item;
 
+@net.minecraftforge.registries.ObjectHolder("paralleldimension:items")
 public class ItemInit 
 {
 	
+	public static ArrayList<Item> itemsToRegister = new ArrayList<>();
 	
-	public static final Item Saphir = new ItemStandard("saphir");
-	public static final Item Rubin = new ItemStandard("rubin");
-	public static final Item HoellenFeuerzeug = new ItemFeuerzeug("hoellenfeuerzeug");
+	//Items
+	public static Item Saphir;
+	public static Item Rubin;
+	public static Item HoellenFeuerzeug;
 	
 	
-	public static void construct() {
-		ItemRegistry.register(ModConfig.MODID, ItemInit.class);
-    }
+	public static void initItems() {
+	Saphir = new ItemStandard("saphir", ParallelDimensionMod.ParallelDimensionTab).addToRegistryList();
+	Rubin = new ItemStandard("rubin", ParallelDimensionMod.ParallelDimensionTab).addToRegistryList();
+	HoellenFeuerzeug = new ItemFeuerzeug("hoellenfeuerzeug", ParallelDimensionMod.ParallelDimensionTab, 128).addToRegistryList();
+
+	}
+	
 	
 }

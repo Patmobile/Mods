@@ -1,20 +1,22 @@
 package de.patmobile.paralleldimension.items;
 
-import de.patmobile.paralleldimension.ParallelDimensionMod;
+
 import de.patmobile.paralleldimension.blocks.BlockParallelDimensionPortal;
 import de.patmobile.paralleldimension.init.BlockInit;
 
 import net.minecraft.entity.player.EntityPlayer;
-
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUseContext;
 import net.minecraft.util.EnumActionResult;
 
 
-public class ItemFeuerzeug extends UItemFeuerzeug {
+public class ItemFeuerzeug extends ItemStandard {
 	
-	public ItemFeuerzeug(String name) {
-		super(name, ParallelDimensionMod.ParallelDimensionTab, new Properties().defaultMaxDamage(128));
+	    public ItemFeuerzeug(String name, ItemGroup group, int maxdamage) {
+	        super(name, group, maxdamage);
+	        
+	       
 	}
 
 	

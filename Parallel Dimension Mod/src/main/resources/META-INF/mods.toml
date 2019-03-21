@@ -5,7 +5,7 @@ authors="Patmobile" #optional
 
 [[mods]] #mandatory
 modId="paralleldimension" #mandatory
-version="1.0" #mandatory
+version="1.0.1" #mandatory
 displayName="Parallel Dimension Mod" #mandatory
 # The description text for the mod (multi line!) (#mandatory)
 description='''
