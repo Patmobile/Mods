@@ -5,7 +5,7 @@ authors="Patmobile" #optional
 
 [[mods]] #mandatory
 modId="moreitems" #mandatory
-version="1.0" #mandatory
+version="1.0.1" #mandatory
 displayName="More Items Mod" #mandatory
 # The description text for the mod (multi line!) (#mandatory)
 description='''

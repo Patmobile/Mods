@@ -10,9 +10,6 @@ public class CommonProxy implements IModProxy {
        
     @Override
 	public void construct() {
-    	ItemInit.construct();
-		InitToolSets.construct();
-		InitArmorSets.construct();
 	}
 
     @Override

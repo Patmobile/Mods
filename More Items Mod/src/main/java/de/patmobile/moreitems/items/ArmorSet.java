@@ -1,41 +1,21 @@
 package de.patmobile.moreitems.items;
 
-
-import de.patmobile.moreitems.registry.IItemRegistryType;
+import de.patmobile.moreitems.Init.ItemInit;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemGroup;
 
-public class ArmorSet implements IItemRegistryType {
-	
-	private final ArmorHelmet helmet;
-	private final ArmorChestplate chestplate;
-	private final ArmorLeggins leggings;
-	private final ArmorBoots boots;
-	
-	public ArmorSet(ArmorHelmet helmet, ArmorChestplate chestplate, ArmorLeggins leggings, ArmorBoots boots) {
-		this.helmet = helmet;
-		this.chestplate = chestplate;
-		this.leggings = leggings;
-		this.boots = boots;
-	}
-	
-	@Override
-	public Item[] getItemArray() {
-		return new Item[] { helmet, chestplate, leggings, boots };
-	}
-	
-	public ArmorHelmet getHelmet() {
-		return helmet;
-	}
-	
-	public ArmorChestplate getChestplate() {
-		return chestplate;
-	}
-	
-	public ArmorLeggins getLeggings() {
-		return leggings;
-	}
-	
-	public ArmorBoots getBoots() {
-		return boots;
-	}
+
+public class ArmorSet extends ItemArmor {
+    public ArmorSet(String Name, IArmorMaterial materialIn, EntityEquipmentSlot slots, ItemGroup group) {
+        super(materialIn,slots,new Item.Properties().group(group));
+        setRegistryName(Name);
+    }
+
+    public ArmorSet addToRegistryList(){
+        ItemInit.itemsToRegister.add(this);
+        return this;
+    }
 }

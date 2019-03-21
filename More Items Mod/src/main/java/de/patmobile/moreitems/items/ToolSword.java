@@ -1,27 +1,22 @@
 package de.patmobile.moreitems.items;
 
 
-import de.patmobile.moreitems.api.IToolMaterial;
-import de.patmobile.moreitems.api.IToolMaterial.Tools;
-import de.patmobile.moreitems.api.IUItem;
-import net.minecraft.item.*;
+import de.patmobile.moreitems.ModConfig;
+import de.patmobile.moreitems.Init.ItemInit;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemSword;
 
-public class ToolSword extends ItemSword implements IUItem {
+public class ToolSword extends ItemSword {
 	
-	protected final String name;
-	
-	public ToolSword(String name, Properties properties, IToolMaterial material) {
-		this(name, null, properties, material);
-	}
-	
-	public ToolSword(String name, ItemGroup group, Properties properties, IToolMaterial material) {
-		super(material, (int) material.getAdditionalDamage(Tools.SWORD), material.getAttackSpeed(Tools.SWORD), group == null ? properties : properties.group(group));
-		this.name = name;
-	}
-	
-	@Override
-	public String getEntryName() {
-		return name;
-	}
-	
+    public ToolSword(String Name, IItemTier tier, ItemGroup group) {
+        super(tier, 3+(int)tier.getAttackDamage(),1,new Item.Properties().group(group).maxStackSize(1));
+        setRegistryName(ModConfig.MODID,Name);
+    }
+
+    public ToolSword addToRegistryList(){
+        ItemInit.itemsToRegister.add(this);
+        return this;
+    }
 }
