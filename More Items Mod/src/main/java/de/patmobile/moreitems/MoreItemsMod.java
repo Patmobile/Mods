@@ -37,6 +37,7 @@ public class MoreItemsMod
 	
 	public MoreItemsMod() 
 	{
+		ItemInit.initItems();
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		proxy.construct();
 	}
