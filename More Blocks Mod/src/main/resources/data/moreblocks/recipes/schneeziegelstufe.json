@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreblocks:schneeziegel",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:schneeziegelstufe",
+    "count": 6
+  }
+}

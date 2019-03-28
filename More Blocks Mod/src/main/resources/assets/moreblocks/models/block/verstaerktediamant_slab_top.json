@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "moreblocks:blocks/verstaerkterdiamantblock",
+        "top": "moreblocks:blocks/verstaerkterdiamantblock",
+        "side": "moreblocks:blocks/verstaerkterdiamantblock"
+    }
+}

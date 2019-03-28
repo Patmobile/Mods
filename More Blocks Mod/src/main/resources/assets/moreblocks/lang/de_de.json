@@ -4,7 +4,18 @@
     "block.moreblocks.eisziegel": "Eisziegel",
     "block.moreblocks.schneeziegel": "Schneeziegel",
     "block.moreblocks.verstaerkterdiamantblock": "Verstearkter Diamantblock",
+	"block.moreblocks.saphirblock": "Saphirblock",
+	"block.moreblocks.rubinblock": "Rubinblock",
+	
     "block.moreblocks.eisziegeltreppe": "Eisziegeltreppe",
     "block.moreblocks.schneeziegeltreppe": "Schneeziegeltreppe",
-    "block.moreblocks.verstaerktediamanttreppe": "Verstaerkte Diamanttreppe"
+    "block.moreblocks.verstaerktediamanttreppe": "Verstaerkte Diamanttreppe",
+	"block.moreblocks.saphirtreppe": "Saphirtreppe",
+	"block.moreblocks.rubintreppe": "Rubintreppe",
+	
+	"block.moreblocks.eisziegelstufe": "Eisziegelstufe",
+    "block.moreblocks.schneeziegelstufe": "Schneeziegelstufe",
+    "block.moreblocks.verstaerktediamantstufe": "Verstaerkte Diamantstufe",
+	"block.moreblocks.saphirstufe": "Saphirstufe",
+	"block.moreblocks.rubinstufe": "Rubinstufe"
 }

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "moreblocks:block/eisziegel_slab" },
+        "type=top": { "model": "moreblocks:block/eisziegel_slab_top" },
+        "type=double": { "model": "moreblocks:block/eisziegel" }
+    }
+}

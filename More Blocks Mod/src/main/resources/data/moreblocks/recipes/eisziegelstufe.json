@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreblocks:eisziegel",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:eisziegelstufe",
+    "count": 6
+  }
+}

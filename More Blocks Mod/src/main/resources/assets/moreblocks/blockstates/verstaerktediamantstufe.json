@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "moreblocks:block/verstaerktediamant_slab" },
+        "type=top": { "model": "moreblocks:block/verstaerktediamant_slab_top" },
+        "type=double": { "model": "moreblocks:block/verstaerkterdiamantblock" }
+    }
+}

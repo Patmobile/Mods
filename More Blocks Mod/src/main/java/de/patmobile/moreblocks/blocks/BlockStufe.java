@@ -5,6 +5,8 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import de.patmobile.moreblocks.ModConfig;
+import de.patmobile.moreblocks.MoreBlocksMod;
+import de.patmobile.moreblocks.init.BlockInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.IBucketPickupHandler;
@@ -17,6 +19,8 @@ import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.IFluidState;
 import net.minecraft.init.Fluids;
 import net.minecraft.item.BlockItemUseContext;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.pathfinding.PathType;
 import net.minecraft.state.BooleanProperty;
@@ -44,6 +48,11 @@ public class BlockStufe extends BlockSlab implements IBucketPickupHandler, ILiqu
         setRegistryName(ModConfig.MODID,Name);
     }
 
+    public Block addToBlockAndItemBlockRegistryList(){
+        BlockInit.blockRegistryList.add(this);
+        BlockInit.itemBlocksRegistryList.add(new ItemBlock(this,new Item.Properties().group(MoreBlocksMod.MoreBlocksTab)));
+        return this;
+    }
 
     @Override
     public int getOpacity(IBlockState state, IBlockReader worldIn, BlockPos pos) {

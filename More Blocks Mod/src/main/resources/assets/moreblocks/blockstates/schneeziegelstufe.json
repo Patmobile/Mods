@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "moreblocks:block/schneeziegel_slab" },
+        "type=top": { "model": "moreblocks:block/schneeziegel_slab_top" },
+        "type=double": { "model": "moreblocks:block/schneeziegel" }
+    }
+}

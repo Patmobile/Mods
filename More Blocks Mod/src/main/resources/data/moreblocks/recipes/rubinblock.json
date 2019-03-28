@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "paralleldimension:rubin",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:rubinblock",
+    "count": 1
+  }
+}

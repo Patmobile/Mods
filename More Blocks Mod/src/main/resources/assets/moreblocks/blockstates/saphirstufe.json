@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "moreblocks:block/saphir_slab" },
+        "type=top": { "model": "moreblocks:block/saphir_slab_top" },
+        "type=double": { "model": "moreblocks:block/saphirblock" }
+    }
+}

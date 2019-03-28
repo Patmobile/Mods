@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreblocks:verstaerkterdiamantblock",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:verstaerktediamantstufe",
+    "count": 6
+  }
+}

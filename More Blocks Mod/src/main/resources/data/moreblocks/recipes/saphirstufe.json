@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreblocks:saphirblock",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:saphirstufe",
+    "count": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "moreblocks:rubinblock",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "moreblocks:rubinstufe",
+    "count": 6
+  }
+}
