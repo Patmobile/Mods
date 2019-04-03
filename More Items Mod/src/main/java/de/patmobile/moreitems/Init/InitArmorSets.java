@@ -1,5 +1,9 @@
 package de.patmobile.moreitems.Init;
 
+import java.util.function.Supplier;
+
+import de.patmobile.moreitems.ModConfig;
+import de.patmobile.paralleldimension.init.ItemInit;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
@@ -12,10 +16,6 @@ import net.minecraft.util.SoundEvent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-import de.patmobile.moreitems.ModConfig;
-
-import java.util.function.Supplier;
-
 public enum InitArmorSets implements IArmorMaterial {
 	
     STEINARMOR(ModConfig.MODID +":"+"stein", 7, new int[]{1, 2, 2, 1}, 5, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
@@ -24,11 +24,17 @@ public enum InitArmorSets implements IArmorMaterial {
     SMARAGDARMOR(ModConfig.MODID+":"+"smaragd", 24, new int[]{3, 6, 7, 2}, 17, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
         return Ingredient.fromItems(new IItemProvider[]{Items.EMERALD});
     }),
-    OBSIDIANARMOR(ModConfig.MODID+":"+"obsidian", 30, new int[]{3, 6, 8, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+    OBSIDIANARMOR(ModConfig.MODID+":"+"obsidian", 30, new int[]{3, 6, 8, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, () -> {
         return Ingredient.fromItems(new IItemProvider[]{Blocks.OBSIDIAN});
     }),
-    VERSTAERKTEDIAMANTARMOR(ModConfig.MODID+":"+"verstaerktediamant", 50, new int[]{3, 6, 8, 3}, 40, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
-        return Ingredient.fromItems(new IItemProvider[]{ItemInit.VerstaerkterDiamant});
+    VERSTAERKTEDIAMANTARMOR(ModConfig.MODID+":"+"verstaerktediamant", 50, new int[]{3, 6, 8, 3}, 40, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 3.5F, () -> {
+        return Ingredient.fromItems(new IItemProvider[]{ItemInitMI.VerstaerkterDiamant});
+    }),
+	SAPHIRARMOR(ModConfig.MODID+":"+"saphir", 20, new int[]{3, 5, 7, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F, () -> {
+        return Ingredient.fromItems(new IItemProvider[]{ItemInit.Saphir});
+    }),
+	RUBINARMOR(ModConfig.MODID+":"+"rubin", 28, new int[]{3, 5, 8, 3}, 27, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, () -> {
+        return Ingredient.fromItems(new IItemProvider[]{ItemInit.Rubin});
     });
 
 

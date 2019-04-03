@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "E",
+    "S"
+  ],
+  "key": {
+    "E": {
+      "item": "paralleldimension:rubin"
+    },
+    "S":
+      {
+        "item": "minecraft:stick"
+      }
+      
+      },
+      
+  "result": {
+    "item": "moreitems:rubinschwert",
+    "count": 1
+  }
+}

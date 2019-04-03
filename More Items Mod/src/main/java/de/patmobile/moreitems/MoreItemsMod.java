@@ -2,7 +2,7 @@ package de.patmobile.moreitems;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import de.patmobile.moreitems.Init.ItemInit;
+import de.patmobile.moreitems.Init.ItemInitMI;
 import de.patmobile.moreitems.proxy.IModProxy;
 import de.patmobile.moreitems.proxy.ClientProxy;
 import de.patmobile.moreitems.proxy.CommonProxy;
@@ -29,7 +29,7 @@ public class MoreItemsMod
 	public static ItemGroup MoreItemsTab = new ItemGroup("moreitemstab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ItemInit.VerstaerkterDiamant);
+            return new ItemStack(ItemInitMI.VerstaerkterDiamant);
         }
     };
     
@@ -37,7 +37,7 @@ public class MoreItemsMod
 	
 	public MoreItemsMod() 
 	{
-		ItemInit.initItems();
+		ItemInitMI.initItems();
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 		proxy.construct();
 	}

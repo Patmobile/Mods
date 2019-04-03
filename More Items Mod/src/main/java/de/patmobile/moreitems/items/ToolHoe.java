@@ -4,7 +4,7 @@ import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Multimap;
 
-import de.patmobile.moreitems.Init.ItemInit;
+import de.patmobile.moreitems.Init.ItemInitMI;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
@@ -73,7 +73,7 @@ public class ToolHoe extends ItemTiered {
     }
 
     public ToolHoe addToRegistryList(){
-        ItemInit.itemsToRegister.add(this);
+    	ItemInitMI.itemsToRegister.add(this);
         return this;
     }
 }

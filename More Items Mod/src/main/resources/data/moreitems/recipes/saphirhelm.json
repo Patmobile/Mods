@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "paralleldimension:saphir"
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:saphirhelm",
+    "count": 1
+  }
+}

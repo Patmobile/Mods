@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "paralleldimension:rubin"
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:rubinhelm",
+    "count": 1
+  }
+}

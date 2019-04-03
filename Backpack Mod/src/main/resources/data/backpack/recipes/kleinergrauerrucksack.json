@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LFL",
+    "RKR",
+	"LFL"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:chest",
+      "data": 0
+    },
+	
+	"L": {
+      "item": "minecraft:leather",
+      "data": 0
+    },
+	
+	"R": {
+      "item": "paralleldimension:rubin",
+      "data": 0
+    },
+	
+	"F": {
+      "item": "minecraft:gray_dye",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "backpack:kleinergrauerrucksack",
+    "count": 1
+  }
+}

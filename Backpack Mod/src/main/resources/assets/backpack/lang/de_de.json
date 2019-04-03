@@ -1,0 +1,41 @@
+{
+    "itemGroup.backpacktab": "Backpack Mod",
+    
+    "item.backpack.kleinerrucksack": "Kleiner Rucksack",
+    "item.backpack.grosserrucksack": "Grosser Rucksack",
+
+    "item.backpack.kleinerweisserrucksack": "Kleiner Weisser Rucksack",
+    "item.backpack.kleinerorangenerrucksack": "Kleiner Orangener Rucksack",
+    "item.backpack.kleinermagentarucksack": "Kleiner Magenta Rucksack",
+	"item.backpack.kleinerhellblauerrucksack": "Kleiner Hellblauer Rucksack",
+	"item.backpack.kleinergelberrucksack": "Kleiner Gelber Rucksack",
+	"item.backpack.kleinerhellgruenerrucksack": "Kleiner Hellgruener Rucksack",
+	"item.backpack.kleinerrosanerrucksack": "Kleiner Rosaner Rucksack",
+	"item.backpack.kleinergrauerrucksack": "Kleiner Grauer Rucksack",
+	"item.backpack.kleinerhellgrauerrucksack": "Kleiner Hellgrauer Rucksack",
+	"item.backpack.kleinertuerkiserrucksack": "Kleiner Tuerkiser Rucksack",
+	"item.backpack.kleinervioletterrucksack": "Kleiner Violetter Rucksack",
+	"item.backpack.kleinerblauerrucksack": "Kleiner Blauer Rucksack",
+	"item.backpack.kleinerbraunerrucksack": "Kleiner Brauner Rucksack",
+	"item.backpack.kleinergruenerrucksack": "Kleiner Gruener Rucksack",
+	"item.backpack.kleinerroterrucksack": "Kleiner Roter Rucksack",
+	"item.backpack.kleinerschwarzerrucksack": "Kleiner Schwarzer Rucksack",
+	
+	"item.backpack.grosserweisserrucksack": "Groﬂer Weisser Rucksack",
+    "item.backpack.grosserorangenerrucksack": "Groﬂer Orangener Rucksack",
+    "item.backpack.grossermagentarucksack": "Groﬂer Magenta Rucksack",
+	"item.backpack.grosserhellblauerrucksack": "Groﬂer Hellblauer Rucksack",
+	"item.backpack.grossergelberrucksack": "Groﬂer Gelber Rucksack",
+	"item.backpack.grosserhellgruenerrucksack": "Groﬂer Hellgruener Rucksack",
+	"item.backpack.grosserrosanerrucksack": "Groﬂer Rosaner Rucksack",
+	"item.backpack.grossergrauerrucksack": "Groﬂer Grauer Rucksack",
+	"item.backpack.grosserhellgrauerrucksack": "Groﬂer Hellgrauer Rucksack",
+	"item.backpack.grossertuerkiserrucksack": "Groﬂer Tuerkiser Rucksack",
+	"item.backpack.grosservioletterrucksack": "Groﬂer Violetter Rucksack",
+	"item.backpack.grosserblauerrucksack": "Groﬂer Blauer Rucksack",
+	"item.backpack.grosserbraunerrucksack": "Groﬂer Brauner Rucksack",
+	"item.backpack.grossergruenerrucksack": "Groﬂer Gruener Rucksack",
+	"item.backpack.grosserroterrucksack": "Groﬂer Roter Rucksack",
+	"item.backpack.grosserschwarzerrucksack": "Groﬂer Schwarzer Rucksack"
+
+}

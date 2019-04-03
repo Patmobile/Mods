@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "E": {
+      "item": "paralleldimension:saphir"
+    },
+    "S":
+      {
+        "item": "minecraft:stick"
+      }
+      
+      },
+      
+  "result": {
+    "item": "moreitems:saphirspitzhacke",
+    "count": 1
+  }
+}

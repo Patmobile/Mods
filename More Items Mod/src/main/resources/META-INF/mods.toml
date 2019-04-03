@@ -5,7 +5,7 @@ authors="Patmobile" #optional
 
 [[mods]] #mandatory
 modId="moreitems" #mandatory
-version="1.0.1" #mandatory
+version="1.1" #mandatory
 displayName="More Items Mod" #mandatory
 # The description text for the mod (multi line!) (#mandatory)
 description='''
@@ -26,5 +26,12 @@ This mod is awesome!
     modId="minecraft"
     mandatory=true
     versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.moreitems]]
+    modId="paralleldimension"
+    mandatory=true
+    versionRange="[1,)"
     ordering="NONE"
     side="BOTH"

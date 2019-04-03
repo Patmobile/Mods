@@ -1,7 +1,7 @@
 package de.patmobile.moreitems.items;
 
 import de.patmobile.moreitems.ModConfig;
-import de.patmobile.moreitems.Init.ItemInit;
+import de.patmobile.moreitems.Init.ItemInitMI;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -47,7 +47,7 @@ public class ItemStandard extends Item {
     }
 
     public ItemStandard addToRegistryList(){
-        ItemInit.itemsToRegister.add(this);
+    	ItemInitMI.itemsToRegister.add(this);
         return this;
     }
 

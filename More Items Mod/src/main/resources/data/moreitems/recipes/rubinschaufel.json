@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "S",
+    "S"
+  ],
+  "key": {
+    "E": {
+      "item": "paralleldimension:rubin"
+    },
+    "S":
+      {
+        "item": "minecraft:stick"
+      }
+      
+      },
+      
+  "result": {
+    "item": "moreitems:rubinschaufel",
+    "count": 1
+  }
+}

@@ -14,7 +14,7 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 
 @net.minecraftforge.registries.ObjectHolder("moreitems:items")
-public class ItemInit 
+public class ItemInitMI 
 {
 	
 	public static ArrayList<Item> itemsToRegister = new ArrayList<>();
@@ -28,12 +28,16 @@ public class ItemInit
 	public static Item SmaragdSpitzhacke, SmaragdAxt, SmaragdSchaufel, SmaragdHacke, SmaragdSchwert;
 	public static Item ObsidianSpitzhacke, ObsidianAxt, ObsidianSchaufel, ObsidianHacke, ObsidianSchwert;
 	public static Item VerstaerkteDiamantSpitzhacke, VerstaerkteDiamantAxt, VerstaerkteDiamantSchaufel, VerstaerkteDiamantHacke, VerstaerktesDiamantSchwert;
+	public static Item SaphirSpitzhacke, SaphirAxt, SaphirSchaufel, SaphirHacke, SaphirSchwert;
+	public static Item RubinSpitzhacke, RubinAxt, RubinSchaufel, RubinHacke, RubinSchwert;
 	
 	//Armor
 	public static Item SteinHelm, SteinBrustplatte, SteinHose, SteinSchuhe;
 	public static Item SmaragdHelm, SmaragdBrustplatte, SmaragdHose, SmaragdSchuhe;
 	public static Item ObsidianHelm, ObsidianBrustplatte, ObsidianHose, ObsidianSchuhe;
 	public static Item VerstaerkterDiamantHelm, VerstaerkteDiamantBrustplatte, VerstaerkteDiamantHose, VerstaerkteDiamantSchuhe;
+	public static Item SaphirHelm, SaphirBrustpanzer, SaphirHose, SaphirSchuhe;
+	public static Item RubinHelm, RubinBrustpanzer, RubinHose, RubinSchuhe;
 	
 	public static void initItems() {
 	//Items
@@ -57,7 +61,17 @@ public class ItemInit
 	VerstaerkteDiamantSchaufel = new ToolShovel("verstaerktesdiamanttool_shovel", InitToolSets.VERSTAERKTERDIAMANT, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	VerstaerkteDiamantHacke = new ToolHoe("verstaerktesdiamanttool_hoe", InitToolSets.VERSTAERKTERDIAMANT, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	VerstaerktesDiamantSchwert = new ToolSword("verstaerktesdiamanttool_sword", InitToolSets.VERSTAERKTERDIAMANT, MoreItemsMod.MoreItemsTab).addToRegistryList();
-    
+    SaphirSpitzhacke = new ToolPickaxe("saphirspitzhacke", InitToolSets.SAPHIR, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirAxt = new ToolAxe("saphiraxt", InitToolSets.SAPHIR, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirSchaufel = new ToolShovel("saphirschaufel", InitToolSets.SAPHIR, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirHacke = new ToolHoe("saphirhacke", InitToolSets.SAPHIR, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirSchwert = new ToolSword("saphirschwert", InitToolSets.SAPHIR, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinSpitzhacke = new ToolPickaxe("rubinspitzhacke", InitToolSets.RUBIN, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinAxt = new ToolAxe("rubinaxt", InitToolSets.RUBIN, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinSchaufel = new ToolShovel("rubinschaufel", InitToolSets.RUBIN, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinHacke = new ToolHoe("rubinhacke", InitToolSets.RUBIN, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinSchwert = new ToolSword("rubinschwert", InitToolSets.RUBIN, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	
 	//Armor
 	SteinHelm = new ArmorSet("steinarmor_helmet", InitArmorSets.STEINARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
     SteinBrustplatte = new ArmorSet("steinarmor_chestplate", InitArmorSets.STEINARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
@@ -75,7 +89,14 @@ public class ItemInit
 	VerstaerkteDiamantBrustplatte = new ArmorSet("verstaerktediamantarmor_chestplate", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	VerstaerkteDiamantHose = new ArmorSet("verstaerktediamantarmor_leggings", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	VerstaerkteDiamantSchuhe = new ArmorSet("verstaerktediamantarmor_boots", InitArmorSets.VERSTAERKTEDIAMANTARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
-
+    SaphirHelm = new ArmorSet("saphirhelm", InitArmorSets.SAPHIRARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirBrustpanzer = new ArmorSet("saphirbrustpanzer", InitArmorSets.SAPHIRARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirHose = new ArmorSet("saphirhose", InitArmorSets.SAPHIRARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	SaphirSchuhe = new ArmorSet("saphirschuhe", InitArmorSets.SAPHIRARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinHelm = new ArmorSet("rubinhelm", InitArmorSets.RUBINARMOR, EntityEquipmentSlot.HEAD, MoreItemsMod.MoreItemsTab).addToRegistryList();	
+    RubinBrustpanzer = new ArmorSet("rubinbrustpanzer", InitArmorSets.RUBINARMOR, EntityEquipmentSlot.CHEST, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinHose = new ArmorSet("rubinhose", InitArmorSets.RUBINARMOR, EntityEquipmentSlot.LEGS, MoreItemsMod.MoreItemsTab).addToRegistryList();
+	RubinSchuhe = new ArmorSet("rubinschuhe", InitArmorSets.RUBINARMOR, EntityEquipmentSlot.FEET, MoreItemsMod.MoreItemsTab).addToRegistryList();
 	}
 
 }

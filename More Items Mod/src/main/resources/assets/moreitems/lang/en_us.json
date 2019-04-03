@@ -20,7 +20,17 @@
     "item.moreitems.verstaerktesdiamanttool_sword": "Hardened Diamond Sword",
     "item.moreitems.verstaerktesdiamanttool_shovel": "Hardened Diamond Shovel",
     "item.moreitems.verstaerktesdiamanttool_hoe": "Hardened Diamond Hoe",
-
+    "item.moreitems.saphiraxt": "Sapphire Axe",
+	"item.moreitems.saphirspitzhacke": "Sapphire Pickaxe",
+	"item.moreitems.saphirschwert": "Sapphire Sword",
+	"item.moreitems.saphirschaufel": "Sapphire Showel",
+	"item.moreitems.saphirhacke": "Sapphire Hoe",
+	"item.moreitems.rubinaxt": "Ruby Axe",
+	"item.moreitems.rubinspitzhacke": "Ruby Pickaxe",
+	"item.moreitems.rubinschwert": "Ruby Sword",
+	"item.moreitems.rubinschaufel": "Ruby Showel",
+	"item.moreitems.rubinhacke": "Ruby Hoe",
+	
     "item.moreitems.steinarmor_helmet": "Stone Helmet",
     "item.moreitems.steinarmor_chestplate": "Stone Chestplate",
     "item.moreitems.steinarmor_leggings": "Stone Leggings",
@@ -36,5 +46,13 @@
     "item.moreitems.verstaerktediamantarmor_helmet": "Hardened Diamond Helmet",
     "item.moreitems.verstaerktediamantarmor_chestplate": "Hardened Diamond Chestplate",
     "item.moreitems.verstaerktediamantarmor_leggings": "Hardened Diamond Leggings",
-    "item.moreitems.verstaerktediamantarmor_boots": "Hardened Diamond Boots"
+    "item.moreitems.verstaerktediamantarmor_boots": "Hardened Diamond Boots",
+	"item.moreitems.saphirhelm": "Sapphire Helmet",
+	"item.moreitems.saphirbrustpanzer": "Sapphire Chestplate",
+	"item.moreitems.saphirhose": "Sapphire Leggings",
+	"item.moreitems.saphirschuhe": "Sapphire Boots",
+	"item.moreitems.rubinhelm": "Ruby Helmet",
+	"item.moreitems.rubinbrustpanzer": "Ruby Chestplate",
+	"item.moreitems.rubinhose": "Ruby Leggings",
+	"item.moreitems.rubinschuhe": "Ruby Boots"
 }

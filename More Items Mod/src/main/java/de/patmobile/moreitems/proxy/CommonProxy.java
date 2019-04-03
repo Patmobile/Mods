@@ -1,8 +1,5 @@
 package de.patmobile.moreitems.proxy;
 
-import de.patmobile.moreitems.Init.InitArmorSets;
-import de.patmobile.moreitems.Init.InitToolSets;
-import de.patmobile.moreitems.Init.ItemInit;
 
 
 public class CommonProxy implements IModProxy {

@@ -8,6 +8,8 @@ import net.minecraft.util.LazyLoadBase;
 
 import java.util.function.Supplier;
 
+import de.patmobile.paralleldimension.init.ItemInit;
+
 public enum InitToolSets implements IItemTier {
     SMARAGD(2, 1000, 10.0F, 2.5F, 15, () -> {
         return Ingredient.fromItems(Items.EMERALD);
@@ -16,8 +18,15 @@ public enum InitToolSets implements IItemTier {
         return Ingredient.fromItems(Blocks.OBSIDIAN);
     }),
     VERSTAERKTERDIAMANT(4, 2000, 16.0F, 4.0F, 35, () -> {
-        return Ingredient.fromItems(ItemInit.VerstaerkterDiamant);
-    });
+        return Ingredient.fromItems(ItemInitMI.VerstaerkterDiamant);
+    }),
+	SAPHIR(2, 750, 10.0F, 2.5F, 15, () -> {
+		return Ingredient.fromItems(ItemInit.Saphir);
+	}),
+	RUBIN(3, 800, 13.0F, 3.0F, 20, () -> {
+	    return Ingredient.fromItems(ItemInit.Rubin);
+	});
+	
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;

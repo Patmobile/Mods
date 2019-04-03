@@ -1,6 +1,6 @@
 package de.patmobile.moreitems.items;
 
-import de.patmobile.moreitems.Init.ItemInit;
+import de.patmobile.moreitems.Init.ItemInitMI;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.Item;
@@ -15,7 +15,7 @@ public class ArmorSet extends ItemArmor {
     }
 
     public ArmorSet addToRegistryList(){
-        ItemInit.itemsToRegister.add(this);
+        ItemInitMI.itemsToRegister.add(this);
         return this;
     }
 }

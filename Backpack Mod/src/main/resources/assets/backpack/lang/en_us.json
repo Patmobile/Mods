@@ -1,0 +1,41 @@
+{
+    "itemGroup.backpacktab": "Backpack Mod",
+    
+    "item.backpack.kleinerrucksack": "Small Backpack",
+    "item.backpack.grosserrucksack": "Large Backpack",
+
+    "item.backpack.kleinerweisserrucksack": "Small White Backpack",
+    "item.backpack.kleinerorangenerrucksack": "Small Orange Backpack",
+    "item.backpack.kleinermagentarucksack": "Small Magenta Backpack",
+	"item.backpack.kleinerhellblauerrucksack": "Small Light Blue Backpack",
+	"item.backpack.kleinergelberrucksack": "Small Yellow Backpack",
+	"item.backpack.kleinerhellgruenerrucksack": "Small Lime Backpack",
+	"item.backpack.kleinerrosanerrucksack": "Small Pink Backpack",
+	"item.backpack.kleinergrauerrucksack": "Small Grey Backpack",
+	"item.backpack.kleinerhellgrauerrucksack": "Small Light Grey Backpack",
+	"item.backpack.kleinertuerkiserrucksack": "Small Cyan Backpack",
+	"item.backpack.kleinervioletterrucksack": "Small Purple Backpack",
+	"item.backpack.kleinerblauerrucksack": "Small Blue Backpack",
+	"item.backpack.kleinerbraunerrucksack": "Small Brown Backpack",
+	"item.backpack.kleinergruenerrucksack": "Small Green Backpack",
+	"item.backpack.kleinerroterrucksack": "Small Red Backpack",
+	"item.backpack.kleinerschwarzerrucksack": "Small Black Backpack",
+	
+	"item.backpack.grosserweisserrucksack": "Large White Backpack",
+    "item.backpack.grosserorangenerrucksack": "Large Orange Backpack",
+    "item.backpack.grossermagentarucksack": "Large Magenta Backpack",
+	"item.backpack.grosserhellblauerrucksack": "Large Light Blue Backpack",
+	"item.backpack.grossergelberrucksack": "Large Yellow Backpack",
+	"item.backpack.grosserhellgruenerrucksack": "Large Light Green Backpack",
+	"item.backpack.grosserrosanerrucksack": "Large Pink Backpack",
+	"item.backpack.grossergrauerrucksack": "Large Grey Backpack",
+	"item.backpack.grosserhellgrauerrucksack": "Large Light Grey Backpack",
+	"item.backpack.grossertuerkiserrucksack": "Large Cyan Backpack",
+	"item.backpack.grosservioletterrucksack": "Large Purple Backpack",
+	"item.backpack.grosserblauerrucksack": "Large Blue Backpack",
+	"item.backpack.grosserbraunerrucksack": "Large Brown Backpack",
+	"item.backpack.grossergruenerrucksack": "Large Green Backpack",
+	"item.backpack.grosserroterrucksack": "Large Red Backpack",
+	"item.backpack.grosserschwarzerrucksack": "Large Black Backpack"
+
+}

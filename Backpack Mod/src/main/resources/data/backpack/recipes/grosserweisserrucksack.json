@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LFL",
+    "RKR",
+	"LFL"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:chest",
+      "data": 0
+    },
+	
+	"L": {
+      "item": "minecraft:leather",
+      "data": 0
+    },
+	
+	"R": {
+      "item": "moreitems:verstaerkterdiamant",
+      "data": 0
+    },
+	
+	"F": {
+      "item": "minecraft:bone_meal",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "backpack:grosserweisserrucksack",
+    "count": 1
+  }
+}

@@ -1,6 +1,6 @@
 package de.patmobile.moreitems.util;
 
-import de.patmobile.moreitems.Init.ItemInit;
+import de.patmobile.moreitems.Init.ItemInitMI;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,7 +16,7 @@ public class RegistryHelper {
     public static void registerItems(final RegistryEvent.Register<Item> event){
         final IForgeRegistry<Item> registry = event.getRegistry();
 
-        for(Item item: ItemInit.itemsToRegister){
+        for(Item item: ItemInitMI.itemsToRegister){
             registry.register(item);
         }
         

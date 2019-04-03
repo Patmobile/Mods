@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": {
+      "item": "paralleldimension:saphir"
+    }
+    
+    },
+
+    
+  "result": {
+    "item": "moreitems:saphirschuhe",
+    "count": 1
+  }
+}

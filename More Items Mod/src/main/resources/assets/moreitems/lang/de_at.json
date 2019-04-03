@@ -20,6 +20,16 @@
     "item.moreitems.verstaerktesdiamanttool_sword": "Vaschtärktsschwerd",
     "item.moreitems.verstaerktesdiamanttool_shovel": "Vaschtärkteschaufe",
     "item.moreitems.verstaerktesdiamanttool_hoe": "Vaschtärktehacka",
+	"item.moreitems.saphiraxt": "",
+	"item.moreitems.saphirspitzhacke": "",
+	"item.moreitems.saphirschwert": "",
+	"item.moreitems.saphirschaufel": "",
+	"item.moreitems.saphirhacke": "",
+	"item.moreitems.rubinaxt": "",
+	"item.moreitems.rubinspitzhacke": "",
+	"item.moreitems.rubinschwert": "",
+	"item.moreitems.rubinschaufel": "",
+	"item.moreitems.rubinhacke": "",
 
     "item.moreitems.steinarmor_helmet": "Stoahoim",
     "item.moreitems.steinarmor_chestplate": "Stoabrustplattn",
@@ -36,5 +46,13 @@
     "item.moreitems.verstaerktediamantarmor_helmet": "Vaschtärktadiamanthoim",
     "item.moreitems.verstaerktediamantarmor_chestplate": "Vaschtärktediamantbrustplattn",
     "item.moreitems.verstaerktediamantarmor_leggings": "Vaschtärktediamanthosn",
-    "item.moreitems.verstaerktediamantarmor_boots": "Vaschtärktedianatschuach"
+    "item.moreitems.verstaerktediamantarmor_boots": "Vaschtärktedianatschuach",
+    "item.moreitems.saphirhelm": "",
+	"item.moreitems.saphirbrustpanzer": "",
+	"item.moreitems.saphirhose": "",
+	"item.moreitems.saphirschuhe": "",
+	"item.moreitems.rubinhelm": "",
+	"item.moreitems.rubinbrustpanzer": "",
+	"item.moreitems.rubinhose": "",
+	"item.moreitems.rubinschuhe": ""
 }

@@ -8,7 +8,7 @@ import net.minecraft.item.ItemTool;
 import java.util.Set;
 
 import de.patmobile.moreitems.ModConfig;
-import de.patmobile.moreitems.Init.ItemInit;
+import de.patmobile.moreitems.Init.ItemInitMI;
 
 public class MoreItemsTool extends ItemTool {
 
@@ -18,7 +18,7 @@ public class MoreItemsTool extends ItemTool {
     }
 
     public Item addToRegistryList(){
-        ItemInit.itemsToRegister.add(this);
+    	ItemInitMI.itemsToRegister.add(this);
         return this;
     }
 }

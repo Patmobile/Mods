@@ -20,6 +20,16 @@
     "item.moreitems.verstaerktesdiamanttool_sword": "Verstärktes Diamantschwert",
     "item.moreitems.verstaerktesdiamanttool_shovel": "Verstärkte Diamantschaufel",
     "item.moreitems.verstaerktesdiamanttool_hoe": "Verstärkte Diamanthacke",
+	"item.moreitems.saphiraxt": "Saphiraxt",
+	"item.moreitems.saphirspitzhacke": "Saphirsptizhacke",
+	"item.moreitems.saphirschwert": "Saphirschwert",
+	"item.moreitems.saphirschaufel": "Saphirschaufel",
+	"item.moreitems.saphirhacke": "Saphirhacke",
+	"item.moreitems.rubinaxt": "Rubinaxt",
+	"item.moreitems.rubinspitzhacke": "Rubinspitzhacke",
+	"item.moreitems.rubinschwert": "Rubinschwert",
+	"item.moreitems.rubinschaufel": "Rubinschaufel",
+	"item.moreitems.rubinhacke": "Rubinhacke",
 
     "item.moreitems.steinarmor_helmet": "Steinhelm",
     "item.moreitems.steinarmor_chestplate": "Steinbrustpanzer",
@@ -36,5 +46,13 @@
     "item.moreitems.verstaerktediamantarmor_helmet": "Verstärkter Diamanthelm",
     "item.moreitems.verstaerktediamantarmor_chestplate": "Verstärkter Diamantbrustpanzer",
     "item.moreitems.verstaerktediamantarmor_leggings": "Verstärkte Diamanthose",
-    "item.moreitems.verstaerktediamantarmor_boots": "Verstärkte Diamantschuhe"
+    "item.moreitems.verstaerktediamantarmor_boots": "Verstärkte Diamantschuhe",
+	"item.moreitems.saphirhelm": "Saphirhelm",
+	"item.moreitems.saphirbrustpanzer": "Saphirbrustpanzer",
+	"item.moreitems.saphirhose": "Saphirhose",
+	"item.moreitems.saphirschuhe": "Saphirschuhe",
+	"item.moreitems.rubinhelm": "Rubinhelm",
+	"item.moreitems.rubinbrustpanzer": "Rubinbrustpanzer",
+	"item.moreitems.rubinhose": "Rubinhose",
+	"item.moreitems.rubinschuhe": "Rubinschuhe"
 }
